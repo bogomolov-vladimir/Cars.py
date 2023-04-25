@@ -28,13 +28,13 @@ screen.fill((10, 110, 60))
 pygame.display.update()
 
 #load player vehicle
-car_one = pygame.image.load("/home/user/Desktop/Vladimir/scripts_all/car_images/car.png")
+car_one = pygame.image.load("..../car.png")
 #resize image
 #car_one = pygame.transform.scale(car, (250, 250))
 car_one_loc = car_one.get_rect()
 car_one_loc.center = right_line, height * 0.8
 #load enemy vehicle
-car_two = pygame.image.load("/home/user/Desktop/Vladimir/scripts_all/car_images/otherCar.png")
+car_two = pygame.image.load("..../otherCar.png")
 car_two_loc = car_one.get_rect()
 car_two_loc.center = left_line, height * 0.2
 
